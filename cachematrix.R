@@ -22,8 +22,8 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## cacheSolve calculates the inverse from the returned matrix
-##of makeCacheMatrix. If the calculation was correct, cashSolve will
-##will retrieve the reverse
+##of makeCacheMatrix. If the calculation was correct
+##cashSolve will retrieve the reverse
 
 cacheSolve <- function(x, ...) {
   inv <- x$getInv()
